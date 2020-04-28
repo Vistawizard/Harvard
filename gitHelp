@@ -1,0 +1,50 @@
+Version control
+-Keep track of all changes of a program
+-Synchronize code between different people in different places
+-Test/experiement code without losing the original file
+-Revert back to an old version of the code
+
+Github:
+-Store git repositories and look at them with other people
+-git clone <url> download repositorie from github
+-touch: creates new file
+-git add <filename> commits the file to github or tracks it when using the other options 
+-git commit -m "message" : git saves the snapchot with an english message in "message" and saves it
+-git status
+-git push : sends the files to github
+-git pull : If other changes where made on the repository, it updates the file on your own computer
+    Merge Conflicts:
+    Different changes on the same line
+    BEtween Head and = sign is your own code and between = signs and the long sequence of numbers is the changes online
+git log : log of all different commits 
+git reset --hard <commit> : reset to the commit hash that you put
+git reset --hard origin/master reset content of the repositorie to what it was on github
+
+WHen using git you have to add the files that you wanna change using git add
+
+git commit -am : adds the file to the add and changes it
+
+Branching:
+-branch out of the master 'final' branch and put extra features so that its easier
+-Merge the branch to the master when your happy with the branched work
+- USe git branch to show all branches
+- Use git branch feature "feature" is other branch
+- Use git checkout to move from branch to branch
+- Use git merge feature "feature" (name of branch) while on the master branch
+
+Remotes:
+- Have a version of the repository saved on some other place online
+- download that other version from the internet and add it to my repository to get the latest changes
+- Use git pull to the things above 
+
+Forks:
+- Another version of the repository. When taking something online fork the repository so it belongs to you
+- Do it ON github
+
+Pull requests:
+- Use my changes from the fork and add it to the original repository
+- Good to get comments from other people about my repository and good for reviews
+- ON github
+
+HTML:
+- id="section1" then href="#section1" means jump to the part of the page with the id section1
