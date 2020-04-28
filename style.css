@@ -66,14 +66,18 @@ nav
     height: 40px;
     background-color: 120136;
     
-}
-nav::after{
-    mix-blend-mode: color;
+
 }
 
 nav ul
 {
-    float: left;
+    float: center;
+    display: table;
+    margin: 0 auto;
+}
+
+nav ul li:hover{
+    background-color: #035aa6 ;
 }
 
 nav ul li
@@ -81,23 +85,38 @@ nav ul li
     float: left;
     list-style: none;
     position: relative;
+    border-radius: 30px;
+    text-align: center;
+    margin: 1.2em;
+    z-index: 1;
 }
 
 nav ul li a{
     display: block;
-    font-size: 14px;
+    font-size: 1.5em;
     padding: 22px 14px;
     color: #fff;
     text-decoration: none;
-}
-nav ul li ul{
-    display: block;
-    position: absolute;
-    background-color: 120136;
-    border-radius: 1em;
+    font-family: 'Poppins'
 }
 
-nav ul li ul:hover{
-    background-color: #f3f3f3;
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: 120136;
     
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li{
+    width: 300px;
+}
+
+nav ul li ul li a{
+    padding: 8px 14px;
+    border-radius: 30px;
+}
+nav ul li ul li a:hover{
+    background-color: #035aa0;
 }
