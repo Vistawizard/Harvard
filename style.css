@@ -53,7 +53,7 @@ section img
     pointer-events: none;
 
 }
-#text
+.text
 {
     position: relative;
     color: #fff;
