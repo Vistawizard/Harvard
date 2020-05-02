@@ -48,3 +48,39 @@ Pull requests:
 
 HTML:
 - id="section1" then href="#section1" means jump to the part of the page with the id section1
+
+Css:
+- > sign when using ol > li means direct dencedent means only li that are part of ol
+- Attribute to only style a fild for example input[type=text] means only style the inputs that have a type of text
+    Css selectors:
+    - a, b  Multiple element selector
+    - a b  Descendant selector
+    - a > b child selector
+    - a + b Adjacent sibling selector
+    - [a=b]  Attribute selector
+    - a : b Pseudoclass selector
+    - a :: b Pseudoelement selector
+
+Responsive Design:
+
+    Media queries: (apply CSS styling but only to a specific situation)
+        example: @media print{ (only display when the media is being printed)
+                    .screenonly{
+                    display = none
+                    }
+                }
+                or 
+                @media (min-width: 500px){  (If the width is at least 500px then the background color of the body is red)
+                    body{
+                        background-color: red:
+                    }
+                }
+    
+    FlexBox:
+        display : flex Say that i want to use flex
+
+    Use grids:
+        display : grid
+
+    Bootstrap:
+    -
